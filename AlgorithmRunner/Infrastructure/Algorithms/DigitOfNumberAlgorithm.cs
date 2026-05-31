@@ -25,7 +25,6 @@ namespace AlgorithmRunner.Infrastructure.Algorithms
                 int basamak = temp % 10;
                 Console.WriteLine($"{basamakSayisi - i}. basamak: {basamak}");
                 temp /= 10;
-                Console.WriteLine($"temp: {temp}");
             }
         }
 
